@@ -1,0 +1,42 @@
+.voice-recorder {
+    margin: 20px;
+}
+
+.voice-recorder button {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    padding: o;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-right: 10px;
+}s
+
+.recorder-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.voice-recorder button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 60%;
+}
+
+.voice-recorder i{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.voice-recorder .btn{
+    background-color: #b5934d;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+}
+.voice-recorder .btn:hover{
+    background-color: #b5924dfa;
+}

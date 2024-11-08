@@ -1,0 +1,21 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.Home .content {
+    display: flex;
+}
+
+.Home .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 85vw;
+    height: 90vh;
+}
+
+.Home .main-content h1{
+    color: #94793a;
+}

@@ -1,0 +1,58 @@
+.level-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .levels-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+  }
+
+  .levels-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.levels-container::-webkit-scrollbar {
+    display: none;
+}
+  
+  .level-button {
+    background-color: #fcebd5;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    min-width: fit-content;
+  }
+  
+  .level-button.active {
+    background-color: #b5934d;
+    color: white;
+  }
+  
+  .level-button:hover {
+    background-color: #e3c099;
+  }
+  
+  .nav-arrow {
+    background-color: #fcebd5;
+    padding: 5px 11px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .nav-arrow:hover {
+  }

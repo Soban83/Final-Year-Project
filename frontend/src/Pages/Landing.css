@@ -1,0 +1,79 @@
+.Landing .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80vh;
+    padding-bottom: 10vh;
+    
+}
+
+.Landing main .left img{
+    height: 420px;
+    width: 340px;
+    border-radius: 100px;
+    margin-right: -50px;
+} 
+
+.Landing main .right img{
+    height: 440px;
+    width: 340px;
+    border-radius:120px;
+    margin-left: -50px;
+}
+
+.Landing main .right{
+    max-width: fit-content;
+}
+
+.Landing main .middle .mid1{
+    margin-top: 20px;
+}
+.Landing main .middle .mid1 h3{
+    font-weight: 400;
+    color: red;
+}
+
+.Landing main .middle .mid2 h1{
+    color: #94793a;
+    font-size: 40px;
+}
+
+.Landing .main .middle .mid3{
+    max-width: 300px;
+    text-align: center;
+}
+
+.Landing .main .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Landing .main .middle button{
+    padding: 13px 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: #94793a;
+    border: 0;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.Landing .main .middle button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.Landing main .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Landing main .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

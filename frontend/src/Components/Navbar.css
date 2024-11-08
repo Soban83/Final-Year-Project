@@ -1,0 +1,73 @@
+.Navbar{
+    background-color: #fff7e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar .left, .Navbar .middle, .Navbar .right{
+    width: 33vw;
+}
+
+.Navbar .image img{
+    height: 50px;
+}
+
+.Navbar .image{
+    padding: 20px;
+}
+
+.Navbar .image a:hover{
+    cursor: pointer;
+}
+
+.Navbar .left{
+    display: flex;
+    justify-content: left;
+}
+
+.Navbar .right{
+    display: flex;
+    justify-content: right;
+}
+
+.Navbar .account button{
+    margin: 10px 50px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: #94793a ;
+    border: 0;
+}
+.Navbar .account button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.Navbar .links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .links li{
+    list-style-type: none;
+}
+
+.Navbar .links a{
+    text-decoration: none;
+    color: #94793a;
+    margin-right: 35px;
+    font-weight: 700;
+}

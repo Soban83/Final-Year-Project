@@ -1,0 +1,64 @@
+.UploadVideo .main-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UploadVideo .main-upload form{
+    background-color: #fff7e5;
+    padding: 20px;
+}
+
+.UploadVideo .main-upload form label{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.UploadVideo .main-upload .video{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+}
+.UploadVideo .main-upload .thumbnail{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+}
+.UploadVideo .main-upload .title{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 15vw;
+}
+
+.UploadVideo .main-upload .title label{
+    margin: 10px;
+}
+
+.UploadVideo .main-upload .title input{
+    padding: 7px;
+}
+
+.UploadVideo .main-upload .submit-btn{
+    padding: 10px 35px;
+    background-color: #94793a;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.UploadVideo .main-upload .submit-btn:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
